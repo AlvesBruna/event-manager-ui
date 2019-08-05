@@ -1,0 +1,25 @@
+.event-list{
+   width: 70%;
+   display: flex;
+   margin: auto;
+ }
+ 
+ table {
+   font: menu;
+   border-collapse: collapse;
+   margin: 1em;
+   width: 100%;
+ }
+ 
+ td, th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+ }
+ .remove-event{
+   text-align: center;
+ }
+ .remove-event:hover{
+   cursor: pointer;
+   color: red;
+ }
